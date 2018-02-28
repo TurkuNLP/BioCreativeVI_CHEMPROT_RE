@@ -2,7 +2,7 @@ This code runs the I-ANN (or ST-ANN) ensemble:
 - Trains on training set, predicts development and test set
 - Trains on training set + development set, predicts test set 
 
-Instruction on how to run the code: 
+Instruction for running the pipeline: 
 
 1) Install all prerequisits.
 
