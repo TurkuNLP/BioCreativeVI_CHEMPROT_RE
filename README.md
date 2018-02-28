@@ -1,5 +1,5 @@
 # BioCreativeVI_CHEMPROT_RE
-This repository contains biomedical relation extraction systems capable of recognizing the statements of relations between chemical compounds/drugs and genes/proteins from biomedical literature. The code is developed for our participation in the BioCreative VI Task 5 (CHEMPROT) challenge, and released under a noncommercial licence. Please see the LICENSE.md file. 
+This repository contains biomedical relation extraction systems capable of recognizing the statements of relations between chemical compounds/drugs and genes/proteins from biomedical literature. The code is developed for our participation in the BioCreative VI Task 5 (CHEMPROT) challenge. 
 
 Contact: Farrokh Mehryary, farmeh@utu.fi
 
