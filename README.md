@@ -6,7 +6,7 @@ Contact: Farrokh Mehryary, farmeh@utu.fi
 The code contains three main parts:
 1) An SVM-based biomedical relation extraction system which relies on a rich set of features. 
 The code/instructions for this system can be found here: https://github.com/jbjorne/TEES
-2) A deep learning-based biomedical relation extraction system (I-ANN).
+2) Two deep learning-based biomedical relation extraction system (I-ANN and ST-ANN).
 3) An script which combines the predictions of the SVM and I-ANN system. 
 
 You will need the following prerequisites to run the code in this git repository:
@@ -20,13 +20,3 @@ You will need the following prerequisites to run the code in this git repository
 
 The code can be fully executed on CPU. However, we recommend to run this code on GPU for faster execution. 
 In this case, you will need CUDA libraries to be installed. 
-
-
-
-
-
-
-
-
-
-
