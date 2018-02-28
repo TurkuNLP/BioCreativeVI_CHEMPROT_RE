@@ -16,6 +16,7 @@ You will need the following prerequisites to run the code in this git repository
 4) NetworkX 1.11 library for python (See: https://networkx.github.io/documentation/networkx-1.10/overview.html )
 5) scikit-learn library for python (See: http://scikit-learn.org/stable/ )
 6) wvlib library for python (See: https://github.com/spyysalo/wvlib )
+7) Pre-trained Word2Vec Model (Download from: http://evexdb.org/pmresources/vec-space-models/PubMed-and-PMC-w2v.bin )
 
 The code can be fully executed on CPU. However, we recommend to run this code on GPU for faster execution. 
 In this case, you will need CUDA libraries to be installed. 
