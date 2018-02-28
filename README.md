@@ -1,5 +1,5 @@
 # BioCreativeVI_CHEMPROT_RE
-A deep learning-based biomedical relation extraction system for recognizing the statements of relations between chemical compounds/drugs and genes/proteins from biomedical literature. The code is developed for our participation in the BioCreative VI CHEMPROT challenge, and released under a noncommercial licence. Please see the LICENSE.md file. 
+This repository contains biomedical relation extraction systems capable of recognizing the statements of relations between chemical compounds/drugs and genes/proteins from biomedical literature. The code is developed for our participation in the BioCreative VI Task 5 (CHEMPROT) challenge, and released under a noncommercial licence. Please see the LICENSE.md file. 
 
 Contact: Farrokh Mehryary, farmeh@utu.fi
 
@@ -17,8 +17,10 @@ You will need the following prerequisites to run the code in this git repository
 5) scikit-learn library for python (See: http://scikit-learn.org/stable/ )
 6) wvlib library for python (See: https://github.com/spyysalo/wvlib )
 
-The code can be executed on CPU. However, we recommend to run this code on GPU for faster execution. 
-In this case, you will also need CUDA libraries be installed. 
+The code can be fully executed on CPU. However, we recommend to run this code on GPU for faster execution. 
+In this case, you will need CUDA libraries to be installed. 
+
+
 
 
 
