@@ -1,0 +1,6 @@
+rm -rf /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/temp/* 
+rm -rf /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/out/* 
+python /home/farmeh/Desktop/PROJECTS/GIT/TEES_DEVELBranch/TEES/preprocess.py -i "/home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/PREDICTIONS_AGGREGATIONS/TrainedOnTrainAndDevel/TestPred/Arch_SDP3lstms_FS1lstm_MaxPool(300,200,200,300,25,25,10,1024,0.2,'tanh')_1/TestAggr_1M_Epoch6.xml" -o /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/temp/PRED_TestAggr_1M_Epoch6.tsv --steps EXPORT_CHEMPROT 
+python /home/farmeh/Desktop/PROJECTS/GIT/TEES_DEVELBranch/TEES/preprocess.py -i "DATA/BLLIP_BIO-SC-CCprocessed/CP17-test.xml" -o /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/temp/GOLD_CP17-test.tsv --steps EXPORT_CHEMPROT 
+cd /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/ 
+sh eval.sh /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/temp/PRED_TestAggr_1M_Epoch6.tsv /home/farmeh/Desktop/PROJECTS/GIT/BioCreativeVI_CHEMPROT_RE/I-ANN/ChemProt_Official_EvalKit/temp/GOLD_CP17-test.tsv 

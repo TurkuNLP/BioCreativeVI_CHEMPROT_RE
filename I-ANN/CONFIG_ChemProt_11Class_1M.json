@@ -1,0 +1,41 @@
+{
+   "ExecutionParameters" : {
+          "DoNotAskAnyQuestions" : true   
+   },
+
+   "EvaluationParameters" : {
+          "ExcludeClassLabelsList" : ["neg","CPR:1","CPR:2","CPR:7","CPR:8","CPR:10"],
+          "DecimalPoints" : 6
+   },
+   
+   "W2V_Model" : {
+           "Model_Address"    : "/home/farmeh/DO_NOT_DELETE/WordEmbeddings/PubMed-and-PMC-w2v.bin" ,
+           "MaxWordsInMemory" : 1000000
+    },  
+ 
+    "ExampleGeneration" : {
+           "MAX_SENTENCE_LENGTH" : null ,
+           "ActionON_CrossSentenceExamples" : "DISCARD",
+           "ActionON_DuplicateRelations"    : "DISCARD",
+           "ActionON_MissingRelations"      : "GENERATEASNEGATIVES"
+    }, 
+
+    "CLASSES" : 
+       {  "Negative" : "neg",   
+          "Positive" : ["CPR:1","CPR:2","CPR:3","CPR:4","CPR:5","CPR:6","CPR:7","CPR:8","CPR:9","CPR:10"]
+       } ,                              
+
+    "RENAME_CLASSES":
+       {
+          "CPR:0" : "neg"
+       } ,
+
+    "ClassificationType" : "multiclass" ,
+    "ValidEnityTypesForRelations" : ["CHEMICAL","GENE"] ,
+    "InteractionElementName" : "interaction" ,
+    "InteractionElementClassAttributeName" : "type",
+    "SelfInteractingEntities"              : null,
+    "ValidInteractingPairEntityTypes"      : [["CHEMICAL","GENE"]],
+    "e1Role_e2Role"                        : [],
+    "RemoveSentenceIfNoParseExists"        : true
+}
