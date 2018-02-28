@@ -1,3 +1,7 @@
+This code runs the I-ANN (or ST-ANN) ensemble:
+- Trains on training set, predicts development and test set
+- Trains on training set + development set, predicts test set 
+
 Instruction on how to run the code: 
 
 1) Install all prerequisits.
@@ -21,9 +25,7 @@ Example:
 
 6) Download CHEMPROT pre-processed data (tokenized, parsed, in TEES Interaction XML format) 
 from https://www.dropbox.com/sh/yliclgkrkhyz6um/AABGx7taxC2VYs_I0VGyPm_ia?dl=0 
-and unzip the content into the I-ANN/DATA/ folder. 
-
-After copying file, the folder should have the following files: 
+and unzip the content into the I-ANN/DATA/ folder. After copying files, the folder should have the following files: 
 - NEW_CHEMPROT_PREPROCESSED_DATA.pickle
 - BLLIP_BIO-SC-CCprocessed/CP17-train.xml
 - BLLIP_BIO-SC-CCprocessed/CP17-devel.xml
