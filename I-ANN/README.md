@@ -10,11 +10,15 @@ Instruction for running the pipeline:
 After downloading the file into hard drive, it will have a local address like : /home/user1/PubMed-and-PMC-w2v.bin
 
 3) Open the CONFIG_ChemProt_11Class_1M.json file, and give the local address of the Word2Vec file in the "Model_Address" section. 
-example: 
+
+Example: 
    "W2V_Model" : {
+
            "Model_Address"    : "/home/user1/PubMed-and-PMC-w2v.bin" ,
-           "MaxWordsInMemory" : 1000000
-    },  
+
+            "MaxWordsInMemory" : 1000000
+
+   },  
 
 4) clone the TEES development branch into your hard drive: 
    git clone -b development https://github.com/jbjorne/TEES.git
