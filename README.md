@@ -7,7 +7,7 @@ The code contains three main parts:
 1) An SVM-based biomedical relation extraction system which relies on a rich set of features. 
 The code/instructions for this system can be found here: https://github.com/jbjorne/TEES
 2) Two deep learning-based biomedical relation extraction system (I-ANN and ST-ANN).
-3) An script which combines the predictions of the SVM and I-ANN system. 
+3) The script which combines the predictions of the SVM and I-ANN system: https://github.com/jbjorne/TEES/blob/development/Utils/Combine.py
 
 You will need the following prerequisites to run the code in this git repository:
 1) Python 2.7
