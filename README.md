@@ -21,7 +21,8 @@ You will need the following prerequisites to run the code in this git repository
 The code can be fully executed on CPU. However, we recommend to run this code on GPU for faster execution. 
 In this case, you will need CUDA libraries to be installed. 
 
-Please cite our paper if you use (parts of) our code: 
+Please cite our paper if you use (parts of) our code:<BR>
+  
 @Article{mehryary2018oxfordDB,
 author = {Mehryary, Farrokh and Bj{\"{o}}rne, Jari and Salakoski, Tapio and Ginter, Filip},
 title = {Potent pairing: ensemble of long short-term memory networks and support vector machine for chemical-protein relation extraction},
