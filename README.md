@@ -32,6 +32,5 @@ number = {},
 pages = {bay120},
 year = {2018},
 doi = {10.1093/database/bay120},
-URL = {http://dx.doi.org/10.1093/database/bay120},
-eprint = {/oup/backfile/content_public/journal/database/2018/10.1093_database_bay120/2/bay120.pdf}
+URL = {http://dx.doi.org/10.1093/database/bay120}
 }
