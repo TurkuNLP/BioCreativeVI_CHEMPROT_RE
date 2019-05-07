@@ -23,14 +23,4 @@ In this case, you will need CUDA libraries to be installed.
 
 Please cite our paper if you use (parts of) our code:<BR>
   
-@Article{mehryary2018oxfordDB,
-author = {Mehryary, Farrokh and Bj{\"{o}}rne, Jari and Salakoski, Tapio and Ginter, Filip},
-title = {Potent pairing: ensemble of long short-term memory networks and support vector machine for chemical-protein relation extraction},
-journal = {Database},
-volume = {2018},
-number = {},
-pages = {bay120},
-year = {2018},
-doi = {10.1093/database/bay120},
-URL = {http://dx.doi.org/10.1093/database/bay120}
-}
+Mehryary et al. (2018) *[Potent pairing: ensemble of long short-term memory networks and support vector machine for chemical-protein relation extraction](http://dx.doi.org/10.1093/database/bay120)*. Database.
